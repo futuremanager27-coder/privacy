@@ -72,18 +72,18 @@
 • Account data: email address and unique user ID (Firebase UID), collected when you sign in via email or Google.
 • Game save data: career progress, club, squad, finances, season stats, objectives, and virtual currency balances — stored in Firebase Firestore.
 • Purchase data: transaction tokens processed via Google Play Billing to verify and credit in-app purchases server-side. We do not store payment card details.
-• Advertising data: anonymized device advertising identifier (GAID) used by Google AdMob to serve ads.
+• Advertising data: device advertising identifier (GAID), where available, used by Google AdMob to serve ads.
 • Technical data: app version, device model, OS version, and crash logs for stability purposes. No precise location data is collected.</p>
   </section>
 
   <section>
     <h2>3. Firebase Authentication</h2>
-    <p>Account creation and login are handled by Firebase Authentication (Google LLC). You may sign in with an email/password or via Google Sign-In. Firebase stores credentials securely and is compliant with SOC 2 and ISO 27001 standards. We never have access to your Google password.</p>
+    <p>Account creation and login are handled by Firebase Authentication (Google LLC). You may sign in with an email/password or via Google Sign-In. Firebase is operated by Google and follows Google Cloud security standards. We never have access to your Google password.</p>
   </section>
 
   <section>
     <h2>4. Cloud Save &amp; Synchronization</h2>
-    <p>Your game progress is automatically synced to Firebase Firestore (Google Cloud Platform). This allows you to continue your career on any device using the same account. All data is encrypted in transit (TLS 1.2+) and at rest on Google Cloud servers. Firestore security rules ensure that no user can access another user's data.</p>
+    <p>Your game progress is automatically synced to Firebase Firestore (Google Cloud Platform). This allows you to continue your career on any device using the same account. All data is encrypted in transit (TLS 1.2+) and at rest on Google Cloud servers. Firestore security rules are designed to prevent users from accessing another user's data.</p>
   </section>
 
   <section>
@@ -93,7 +93,7 @@
 
   <section>
     <h2>6. Advertising (Google AdMob)</h2>
-    <p>We use Google AdMob to display ads, including rewarded video ads that grant in-game Coins. AdMob may use your device's advertising identifier (GAID) to show personalized ads. You can opt out of ad personalization at any time in your Android settings (Settings &gt; Privacy &gt; Ads &gt; Opt out of Ads Personalization). AdMob's privacy policy: policies.google.com/privacy.</p>
+    <p>We use Google AdMob to display ads, including rewarded ads that may grant additional in-game rewards or bonus rewards. AdMob may use your device's advertising identifier (GAID) to show personalized ads. You can manage or reset your advertising ID through your Android privacy settings. AdMob's privacy policy: policies.google.com/privacy.</p>
   </section>
 
   <section>
@@ -135,7 +135,7 @@ To exercise any of these rights, contact us at contactfuturemanager@gmail.com. W
 
   <section>
     <h2>11. Account &amp; Data Deletion</h2>
-    <p>You can delete your account at any time from the Danger tab in Settings, or by emailing contactfuturemanager@gmail.com. Deletion permanently removes your Firebase account, cloud save, Coin balance, and all associated data. This action cannot be undone. Local app data can be cleared by uninstalling the application.</p>
+    <p>You can delete your account at any time from the account deletion option in Settings, or by emailing contactfuturemanager@gmail.com. Deletion permanently removes your Firebase account, cloud save, Coin balance, and all associated data. This action cannot be undone. Local app data can be cleared by uninstalling the application.</p>
   </section>
 
   <section>
@@ -156,7 +156,7 @@ We aim to respond to all privacy-related requests within 30 days.</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Kickoff Studio &nbsp;·&nbsp; <a href="terms.html">Terms of Use</a></p>
+    <p>&copy; 2026 Kickoff Studio &nbsp;·&nbsp; <a href="terms.html">Terms of Use</a></p>
   </footer>
 
 </body>
